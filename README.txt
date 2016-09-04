@@ -1,4 +1,5 @@
 °²×°£º
+unzip vim.zip
 ./install.sh
 
 Ð¶ÔØ:
