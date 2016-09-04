@@ -7,7 +7,7 @@ rm -rf ~/.vim
 rm -rf ~/.vimrc
 #mv -f ~/.vimrc_old ~/.vimrc
 
-rm /usr/local/bin/ctags
+#sudo rm /usr/local/bin/ctags
 
 echo "Uninstall is done!"
 

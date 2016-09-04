@@ -7,7 +7,7 @@ cp -rf vim ~/.vim/
 #mv -f ~/.vimrc ~/.vimrc_old
 cp -rf vimrc ~/.vimrc
 
-ln -s /usr/bin/ctags /usr/local/bin/ctags
+#sudo ln -s /usr/bin/ctags /usr/local/bin/ctags
 
 ln -s ~/.vim/bundle/sparkup/vim/ftplugin ~/.vim/bundle/sparkup/ftplugin
 ln -s ~/.vim/bundle/sparkup/vim/ftplugin/html ~/.vim/bundle/sparkup/vim/ftplugin/htmldjango
