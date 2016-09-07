@@ -376,7 +376,7 @@ let Tlist_Auto_Open=0
 """""""""""""""""""""""""""""" 
 " Tag list (ctags) 
 """""""""""""""""""""""""""""""" 
-let Tlist_Ctags_Cmd = '/usr/local/bin/ctags' 
+let Tlist_Ctags_Cmd = '/usr/bin/ctags' 
 let Tlist_Show_One_File = 1 "不同时显示多个文件的tag，只显示当前文件的 
 let Tlist_File_Fold_Auto_Close = 1
 let Tlist_Exit_OnlyWindow = 1 "如果taglist窗口是最后一个窗口，则退出vim 
@@ -420,8 +420,8 @@ Bundle 'gmarik/vundle'
 " original repos on github
 Bundle 'tpope/vim-fugitive'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'Yggdroot/indentLine'
-let g:indentLine_char = '┊'
+"Bundle 'Yggdroot/indentLine'
+"let g:indentLine_char = '┊'
 "ndle 'tpope/vim-rails.git'
 " vim-scripts repos
 Bundle 'L9'
